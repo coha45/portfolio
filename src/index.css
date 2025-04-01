@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+    @apply w-full h-screen;
+}
+
+::-webkit-scrollbar {
+    @apply hidden;
+}
+
+@font-face {
+    font-family: napzer;
+    src: url("/fonts/Napzer-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: inter;
+    src: url("/fonts/Inter_18pt-Regular.ttf") format('truetype');
+}
