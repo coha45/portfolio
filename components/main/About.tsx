@@ -26,8 +26,8 @@ const About = () => {
         </motion.div>
         <div className="max-[450px]:text-sm text-xl mt-10 max-w-[800px] w-11/12 flex flex-col items-center gap-10 text-justify font-[inter]">
             <p className="relative">
-                I am a developer who is currently in highschool that is passionate about building modern and meaningful applications.
-                Currently, I am studying in a Technical Vocational Strand, where we learning about modern ICT systems.
+            I am a high school student and aspiring developer with a passion for building modern, impactful applications. Currently, 
+            I am enrolled in a Technical Vocational Strand, where I study modern ICT systems and their applications.
                 <motion.span 
                 whileInView={{ scaleX : 0 }}
                 transition={{ duration : 0.5 }}
@@ -35,8 +35,9 @@ const About = () => {
                 className="absolute top-0 bottom-0 left-0 right-0 bg-black origin-bottom-right"></motion.span>
             </p>
             <p className="relative">
-                I frequently dabble in many web-related technologies, where I focus on building modern and scalable apps fit for the current web landscape.
-                Though I dont post much of my projects, you can find a collection of some of my publicly shared ones.
+
+                My interests lie in web technologies, where I focus on developing scalable and efficient applications that align with today's evolving web landscape. 
+                While I don’t share all of my projects publicly, you can explore a selection of my work that I’ve made available.
                 <motion.span 
                 whileInView={{ scaleX : 0 }}
                 transition={{ duration : 0.55, delay : 0.05 }}

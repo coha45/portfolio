@@ -53,9 +53,8 @@ const Main = () => {
                   animate={{ opacity : 1 }}
                   transition={{ delay : 1.5 }}
                   className="w-full flex flex-row flex-wrap gap-2 max-[450px]:text-xs text-sm mt-4">
-                    {["Web Development", "Robotics", "Competitive Programming", "Gaming"].map((label, index) => (
+                    {["Web Development", "Robotics", "Programming", "Gaming"].map((label, index) => (
                       <span 
-
                       className="text-black bg-emerald-400 font-semibold px-1 rounded-sm flex items-center justify-center" 
                       key={index}>
                         <GoDotFill fontSize={10}/>

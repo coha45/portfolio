@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar {
-    @apply hidden;
+    display : none;
 }
 
 @font-face {
