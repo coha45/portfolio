@@ -12,7 +12,7 @@ interface ProjectCardProps {
 const ProjectCard : React.FC<ProjectCardProps> = ({ title, description, image, tags,date }) => {
   return (
     <div className="flex flex-col items-start justify-start rounded-2xl shadow-md overflow-hidden h-full">
-      <img src={image} className="bg-cover w-full flex-1" />
+      <img src={image} className="bg-cover w-full flex-1 max-h-[50%]" />
       <div className="p-5 text-sm flex-2">
         <h1 className="font-[napzer] text-3xl font-bold">{title}</h1>
         <h2 className="font-[inter] text-sm font-semibold text-neutral-500 opacity-50">{date}</h2>

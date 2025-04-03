@@ -38,7 +38,7 @@ const Main = () => {
       <div className="flex flex-col items-center w-11/12 max-w-[900px] mx-auto md:mt-35 mt-10 font-[napzer]">
           <motion.section
           className="shadow-xl rounded-4xl bg-white w-full max-[450px]:p-0 max-[450px]:shadow-none p-5 flex md:flex-row flex-col justify-between gap-5">
-              <div className="w-full md:w-100 rounded-[50px] hover:rounded-xl transition-all duration-500 bg-[url('/images/111561501.png')] bg-cover aspect-square">
+              <div className="w-full md:w-100 rounded-[50px] hover:rounded-xl transition-all duration-500 bg-[url('/images/temp.jpg')] bg-center bg-cover aspect-square">
               </div>
               <div 
               className="text-left flex flex-col justify-center items-start flex-1">

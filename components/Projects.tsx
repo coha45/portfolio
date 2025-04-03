@@ -19,6 +19,13 @@ const Projects = () => {
       image : "/images/Screenshot2.PNG",
       tags : ["HTML", "CSS", "Javascript", "AI"],
       date : "July 2024"
+    },
+    {
+      title : "CPS Test",
+      description : "This project was my take on the CPS test-esque websites. Although it is unfinished, I plan to add leaderboards and pvp (perhaps)",
+      image : "/images/mouse.jpg",
+      tags : ["React", "Tailwindcss", "Supabase"],
+      date : "April 2025"
     }
   ]
   return (
@@ -30,7 +37,7 @@ const Projects = () => {
         viewport={{ 
             once : true
         }}
-        className="max-[450px]:text-3xl text-5xl font-bold w-fit flex flex-col mt-20">
+        className="max-[450px]:text-3xl text-5xl font-bold w-fit flex flex-col mt-20 justify-center">
             <span className="uppercase font-[napzer] text-center">MY WORKS</span>
             <motion.span 
             initial={{ scaleX : 0 }}
@@ -42,7 +49,7 @@ const Projects = () => {
              }}
             className="w-full h-1 mt-2 bg-black origin-center"></motion.span>
         </motion.div>
-      <div className="w-full max-w-[1200px] mx-auto grid max-[1200px]:grid-cols-2 max-[800px]:grid-cols-1 grid-cols-3 place-items-center mt-20 gap-10">
+      <div className="w-full self-end max-w-[1200px] mx-auto grid max-[1200px]:grid-cols-2 max-[800px]:grid-cols-1 grid-cols-3 place-items-center mt-20 gap-10">
         { projects.map((e, i) => 
           <ProjectCard title={e.title} description={e.description} image={e.image} tags={e.tags} date={e.date} key={i} />
         ) }
