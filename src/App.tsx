@@ -18,15 +18,17 @@ export default function App() {
   }, [])
 
   return (
-    <div className="w-full h-screen p-5">
+    <div className="w-full min-h-screen flex flex-col">
       <div className="w-full flex flex-row justify-center items-center p-5">
         <Nav />
       </div>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <main className="flex-1">
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   )  
