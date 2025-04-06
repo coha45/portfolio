@@ -11,7 +11,6 @@ import { FaReact, FaJava ,FaRust } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6"
 import { TbBrandFramerMotion } from "react-icons/tb";
 
-
 const Technologies = () => {
   const backend = [
     {
@@ -110,7 +109,7 @@ const Technologies = () => {
     },
     {
         icon : <FaGolang fontSize={25} />,
-        tooltip : "Go"
+        tooltip : "GoLang"
     },
     {
         icon : <SiLua fontSize={25} />,

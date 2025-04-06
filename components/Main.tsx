@@ -28,7 +28,6 @@ const Main = () => {
         setScrollTextVisible(false)
       }
     }
-    console.log(scrollTextVisible)
     window.addEventListener("scroll", handle)
     return () => window.removeEventListener("scroll", handle)
   }, [scrollTextVisible])
